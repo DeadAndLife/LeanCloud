@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2069F9E3F79280A992C993 /* libPods-LeanCloudDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAFDDE279516E82DEDB950D /* libPods-LeanCloudDemo.a */; };
+		CC34FBFF1D260122003C1BF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34FBFE1D260122003C1BF7 /* main.m */; };
+		CC34FC021D260122003C1BF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34FC011D260122003C1BF7 /* AppDelegate.m */; };
+		CC34FC051D260122003C1BF7 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34FC041D260122003C1BF7 /* RegisterVC.m */; };
+		CC34FC081D260122003C1BF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC34FC061D260122003C1BF7 /* Main.storyboard */; };
+		CC34FC0A1D260122003C1BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC34FC091D260122003C1BF7 /* Assets.xcassets */; };
+		CC34FC0D1D260122003C1BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC34FC0B1D260122003C1BF7 /* LaunchScreen.storyboard */; };
+		CCDCB5E11D261470007B1CBB /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDCB5E01D261470007B1CBB /* LoginVC.m */; };
+		CCDCB5E41D261B03007B1CBB /* HomeListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDCB5E31D261B03007B1CBB /* HomeListVC.m */; };
+		CCDCB5E71D264A46007B1CBB /* AddFriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDCB5E61D264A46007B1CBB /* AddFriendVC.m */; };
+		CCDCB5EA1D265C2A007B1CBB /* ChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDCB5E91D265C2A007B1CBB /* ChatVC.m */; };
+		CCDCB5ED1D265DD4007B1CBB /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDCB5EC1D265DD4007B1CBB /* ChatCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BAFDDE279516E82DEDB950D /* libPods-LeanCloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeanCloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACD4F85CFD141CE23DEFFF9 /* Pods-LeanCloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloudDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloudDemo/Pods-LeanCloudDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CC34FBFA1D260122003C1BF7 /* LeanCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC34FBFE1D260122003C1BF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC34FC001D260122003C1BF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC34FC011D260122003C1BF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC34FC031D260122003C1BF7 /* RegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		CC34FC041D260122003C1BF7 /* RegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		CC34FC071D260122003C1BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC34FC091D260122003C1BF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC34FC0C1D260122003C1BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC34FC0E1D260122003C1BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDCB5DF1D261470007B1CBB /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		CCDCB5E01D261470007B1CBB /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		CCDCB5E21D261B03007B1CBB /* HomeListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListVC.h; sourceTree = "<group>"; };
+		CCDCB5E31D261B03007B1CBB /* HomeListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListVC.m; sourceTree = "<group>"; };
+		CCDCB5E51D264A46007B1CBB /* AddFriendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendVC.h; sourceTree = "<group>"; };
+		CCDCB5E61D264A46007B1CBB /* AddFriendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendVC.m; sourceTree = "<group>"; };
+		CCDCB5E81D265C2A007B1CBB /* ChatVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatVC.h; sourceTree = "<group>"; };
+		CCDCB5E91D265C2A007B1CBB /* ChatVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatVC.m; sourceTree = "<group>"; };
+		CCDCB5EB1D265DD4007B1CBB /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		CCDCB5EC1D265DD4007B1CBB /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		FF9439B7B1098B000A087B53 /* Pods-LeanCloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloudDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloudDemo/Pods-LeanCloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC34FBF71D260122003C1BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2069F9E3F79280A992C993 /* libPods-LeanCloudDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8855A1151064A9CBD583AAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BAFDDE279516E82DEDB950D /* libPods-LeanCloudDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC34FBF11D260122003C1BF7 = {
+			isa = PBXGroup;
+			children = (
+				CC34FBFC1D260122003C1BF7 /* LeanCloudDemo */,
+				CC34FBFB1D260122003C1BF7 /* Products */,
+				E09302F86738480D17553389 /* Pods */,
+				B8855A1151064A9CBD583AAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC34FBFB1D260122003C1BF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC34FBFA1D260122003C1BF7 /* LeanCloudDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC34FBFC1D260122003C1BF7 /* LeanCloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC34FC001D260122003C1BF7 /* AppDelegate.h */,
+				CC34FC011D260122003C1BF7 /* AppDelegate.m */,
+				CC34FC031D260122003C1BF7 /* RegisterVC.h */,
+				CC34FC041D260122003C1BF7 /* RegisterVC.m */,
+				CCDCB5DF1D261470007B1CBB /* LoginVC.h */,
+				CCDCB5E01D261470007B1CBB /* LoginVC.m */,
+				CCDCB5E51D264A46007B1CBB /* AddFriendVC.h */,
+				CCDCB5E61D264A46007B1CBB /* AddFriendVC.m */,
+				CCDCB5E21D261B03007B1CBB /* HomeListVC.h */,
+				CCDCB5E31D261B03007B1CBB /* HomeListVC.m */,
+				CCDCB5E81D265C2A007B1CBB /* ChatVC.h */,
+				CCDCB5E91D265C2A007B1CBB /* ChatVC.m */,
+				CCDCB5EB1D265DD4007B1CBB /* ChatCell.h */,
+				CCDCB5EC1D265DD4007B1CBB /* ChatCell.m */,
+				CC34FC061D260122003C1BF7 /* Main.storyboard */,
+				CC34FC091D260122003C1BF7 /* Assets.xcassets */,
+				CC34FC0B1D260122003C1BF7 /* LaunchScreen.storyboard */,
+				CC34FC0E1D260122003C1BF7 /* Info.plist */,
+				CC34FBFD1D260122003C1BF7 /* Supporting Files */,
+			);
+			path = LeanCloudDemo;
+			sourceTree = "<group>";
+		};
+		CC34FBFD1D260122003C1BF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC34FBFE1D260122003C1BF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E09302F86738480D17553389 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF9439B7B1098B000A087B53 /* Pods-LeanCloudDemo.debug.xcconfig */,
+				CACD4F85CFD141CE23DEFFF9 /* Pods-LeanCloudDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC34FBF91D260122003C1BF7 /* LeanCloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC34FC111D260122003C1BF7 /* Build configuration list for PBXNativeTarget "LeanCloudDemo" */;
+			buildPhases = (
+				F53D6BEB56DF3D28FD6EDEE6 /* [CP] Check Pods Manifest.lock */,
+				CC34FBF61D260122003C1BF7 /* Sources */,
+				CC34FBF71D260122003C1BF7 /* Frameworks */,
+				CC34FBF81D260122003C1BF7 /* Resources */,
+				F8FA60FEB9ACB210265CAE57 /* [CP] Embed Pods Frameworks */,
+				946D8C9B7E0BB5ECFBCC2AE9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanCloudDemo;
+			productName = LeanCloudDemo;
+			productReference = CC34FBFA1D260122003C1BF7 /* LeanCloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC34FBF21D260122003C1BF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = QingYun;
+				TargetAttributes = {
+					CC34FBF91D260122003C1BF7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = LSRRXAH5MP;
+					};
+				};
+			};
+			buildConfigurationList = CC34FBF51D260122003C1BF7 /* Build configuration list for PBXProject "LeanCloudDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC34FBF11D260122003C1BF7;
+			productRefGroup = CC34FBFB1D260122003C1BF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC34FBF91D260122003C1BF7 /* LeanCloudDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC34FBF81D260122003C1BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34FC0D1D260122003C1BF7 /* LaunchScreen.storyboard in Resources */,
+				CC34FC0A1D260122003C1BF7 /* Assets.xcassets in Resources */,
+				CC34FC081D260122003C1BF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		946D8C9B7E0BB5ECFBCC2AE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloudDemo/Pods-LeanCloudDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53D6BEB56DF3D28FD6EDEE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8FA60FEB9ACB210265CAE57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloudDemo/Pods-LeanCloudDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC34FBF61D260122003C1BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34FC051D260122003C1BF7 /* RegisterVC.m in Sources */,
+				CC34FC021D260122003C1BF7 /* AppDelegate.m in Sources */,
+				CCDCB5E11D261470007B1CBB /* LoginVC.m in Sources */,
+				CCDCB5E41D261B03007B1CBB /* HomeListVC.m in Sources */,
+				CCDCB5EA1D265C2A007B1CBB /* ChatVC.m in Sources */,
+				CCDCB5ED1D265DD4007B1CBB /* ChatCell.m in Sources */,
+				CCDCB5E71D264A46007B1CBB /* AddFriendVC.m in Sources */,
+				CC34FBFF1D260122003C1BF7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC34FC061D260122003C1BF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC34FC071D260122003C1BF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC34FC0B1D260122003C1BF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC34FC0C1D260122003C1BF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC34FC0F1D260122003C1BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC34FC101D260122003C1BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC34FC121D260122003C1BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9439B7B1098B000A087B53 /* Pods-LeanCloudDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LeanCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnqingyun.LeanCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CC34FC131D260122003C1BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACD4F85CFD141CE23DEFFF9 /* Pods-LeanCloudDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LeanCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnqingyun.LeanCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC34FBF51D260122003C1BF7 /* Build configuration list for PBXProject "LeanCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC34FC0F1D260122003C1BF7 /* Debug */,
+				CC34FC101D260122003C1BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC34FC111D260122003C1BF7 /* Build configuration list for PBXNativeTarget "LeanCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC34FC121D260122003C1BF7 /* Debug */,
+				CC34FC131D260122003C1BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC34FBF21D260122003C1BF7 /* Project object */;
+}
